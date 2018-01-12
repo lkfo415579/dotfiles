@@ -1,0 +1,84 @@
+!! RXVT-unicode setting xrdb ~/.Xdefaults
+
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
+
+! URxvt.font:         xft:Menlo:size=11:style=Regular:antialias=true,xft:Ubuntu Mono:size=12:style=Regular:antialias=true
+! URxvt.boldFont:     xft:Menlo:size=11:style=Bold:antialias=true,xft:Ubuntu Mono:size=12:style=Bold:antialias=true
+URxvt.font:         xft:Monaco:size=11:style=Regular:antialias=true,xft:Yahei Mono:size=12:style=Regular:antialias=true
+URxvt.boldFont:     xft:Monaco:size=11:style=Bold:antialias=true,xft:Yahei Mono:size=12:style=Bold:antialias=true
+! URxvt.font:         xft:monospace:size=11:style=Bold:antialias=true,xft:Yahei Mono:size=16:style=Bold:antialias=true
+! URxvt.boldFont:     xft:monospace:size=11:style=Bold:antialias=true,xft:Yahei Mono:size=16:style=Bold:antialias=true
+URxvt.letterSpace: -1
+
+
+URxvt.inputMethod:ibus
+URxvt.depth:32
+Rxvt.geometry:90x23+10+10
+
+
+Rxvt.scrollBar:False
+Rxvt.scrollBar_left:True
+Rxvt.scrollBar_right:True
+Rxvt.scrollBar_floating: True
+Rxvt.scrollstyle:next
+Rxvt.scrollColor:AntiqueWhite
+
+URxvt.secondaryScroll: true
+
+URxvt.preeditType:Root
+URxvt.utmpInhibit:true
+
+! Color scheme
+
+URxvt.background: [70]#000000
+URxvt.foreground: #FFFFFF
+
+URxvt.fading: 40
+URxvt.fadeColor: #002b36
+URxvt.cursorColor: #93a1a1
+URxvt.pointerColorBackground: #586e75
+URxvt.pointerColorForeground: #93a1a1
+
+URxvt.color0: #000000
+URxvt.color1: #FFFFFF
+URxvt.color2: #4E9A06
+URxvt.color3: #C4A000
+URxvt.color4: #3465A4
+URxvt.color5: #75507B
+URxvt.color6: #06989A
+URxvt.color7: #D3D7CF
+URxvt.color8: #555753
+URxvt.color9: #EF2929
+URxvt.color10: #8AE234
+URxvt.color11: #FCE94F
+URxvt.color12: #729FCF
+URxvt.color13: #AD7FA8
+URxvt.color14: #34E2E2
+URxvt.color15: #EEEEEC
+
+
+URxvt.termName:		xterm-256color
+URxvt.cursorBlink:True
+URxvt.saveLines:3000
+
+
+URxvt.perl-ext-common: default,selection,clipboard,matcher
+URxvt.selection.pattern-0: \][ ](.+)
+URxvt.selection.pattern-1: >>>[ ]+(.+)
+URxvt.urlLauncher     : firefox
+URxvt.matcher.button  : 1
+
+! keyboard
+
+! Normal
+*URxvt*keysym.Home:		\033OH
+*URxvt*keysym.End:		\033OF
+*URxvt*keysym.F1:		\033OP
+*URxvt*keysym.F2:		\033OQ
+*URxvt*keysym.F3:		\033OR
+*URxvt*keysym.F4:		\033OS
