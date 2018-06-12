@@ -17,6 +17,9 @@ die() {
 # cd "$CONFIG_HOME"
 # git submodule update --init
 
+# backup
+cp ~/.bashrc ~/.bashrc_bk
+
 cd ~
 ln -sf ./dotfiles/.bashrc .bashrc
 ln -sf ./dotfiles/.conkyrc .conkyrc
