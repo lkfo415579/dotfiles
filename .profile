@@ -20,13 +20,3 @@ fi
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
-
-# New environment setting added by Sourcery G++ Lite for ARM EABI on Sat Apr 30 00:07:52 CST 2011 1.
-# The unmodified version of this file is saved in /home/lparam/.profile104096649.
-# Do NOT modify these lines; they are used to uninstall.
-export MANPAGER="/usr/bin/most -s"
-
-PATH="/home/lparam/CodeSourcery/Sourcery_G++_Lite/bin:/home/lparam/CodeSourcery/Sourcery_G++_Lite_ARM_EABI/bin:${PATH}"
-PATH="${PATH}:/home/lparam/WindRiver:/home/lparam/WindRiver/gnu/4.1.2-vxworks-6.7/x86-linux2/bin"
-export PATH
-# End comments by InstallAnywhere on Sat Apr 30 00:07:52 CST 2011 1.
