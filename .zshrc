@@ -5,8 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="lparam"
-# ZSH_THEME="robbyrussell"
+ZSH_THEME="robbyrussell"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -238,15 +237,6 @@ check-cmd-backward-delete-char() { zle .backward-delete-char && recolor-cmd }
 
 zle -N self-insert check-cmd-self-insert
 zle -N backward-delete-char check-cmd-backward-delete-char
-
-LC_CTYPE="zh_CN.utf8"
-
-fpath+=$HOME/.zfunc
-
-# add auto-completion directory to zsh's fpath
-fpath=($HOME/.zsh/completion $fpath)
-
-. $HOME/dlf/torch-distro/install/bin/torch-activate
 
 # compsys initiatlization
 autoload -U compinit
